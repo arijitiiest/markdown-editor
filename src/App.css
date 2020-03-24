@@ -1,0 +1,75 @@
+.App {
+  font: 14px Segoe, sans-serif;
+  margin: 0 auto;
+  background: #212121;
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 4rem 7rem;
+}
+
+.input,
+.output {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.input {
+  padding-right: 2rem;
+}
+
+.output {
+  padding-left: 2rem;
+}
+
+.input-text {
+  min-height: 400px;
+  height: 470px;
+  border: 2px solid #464646;
+  background: transparent;
+  color: white;
+  transition: border 0.3s;
+}
+
+.input-text,
+.output-text {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 400px;
+  height: 470px;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.output-text {
+  background: #464646;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.input-text:focus {
+  border: 2px solid grey;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input, .output{
+    width: 100%;
+    padding: 0;
+  }
+}
