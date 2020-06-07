@@ -1,0 +1,16 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    background-color: #212121ee;
+}
+
+.Title {
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    padding-left: 2rem;
+}

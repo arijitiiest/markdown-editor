@@ -9,8 +9,16 @@
 .container {
   display: flex;
   justify-content: center;
-  min-height: 100vh;
-  padding: 4rem 7rem;
+  min-height: 90vh;
+  padding: 1rem 7rem;
+}
+
+.inputTitle {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  font-family: monospace;
+  padding-bottom: .5rem;
 }
 
 .input,
@@ -29,7 +37,7 @@
 
 .input-text {
   min-height: 400px;
-  height: 470px;
+  /* height: 470px; */
   border: 2px solid #464646;
   background: transparent;
   color: white;
@@ -41,9 +49,10 @@
   width: 100%;
   box-sizing: border-box;
   min-height: 400px;
-  height: 470px;
+  height: 90%;
   border-radius: 4px;
   padding: 1em;
+  overflow-y: auto;
 }
 
 .output-text {
